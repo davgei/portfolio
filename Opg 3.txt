@@ -1,9 +1,0 @@
-Opg 3
-
-1.	Det første jeg ser at den lagrer registre allerede i amin funksjonen, som er noe jeg bare gjør i fib funksjonen. I tillegg kan man se at rekkefølgen på når ting blir gjort er litt forskjellig. feks regner C-koden ut current først mens jeg senker r0 verdien først. Koden ser også litt annerledes ut når det kommer til hvordan løkkene avsluttes. min kode stopper når N=1 mens c-koden fortsetter hvi ikke r0 = 0
-
-2.	Det først eman kan se mellom Os og O2 er at Os versjonen bruker CBNZ, mens O2-versjonen bruker CBZ. Det betyr at OS versjonen vil hoppe /returnere rett ut av løkka hvis r0 = 0, mens O2 versjonen vil først bli sendt videre til L4. Når jeg gjør det med O3 så kan jeg se at den bruker også r4. jegs er også at push blir brukt helt i starten på main noe som ikke er sant for O2 versjonen
-
-3. En av fordelene med høynivåspråk som python, java og c er at det er letter å skrive å flere kan det. En annen fordel med høyniåspråk er at man kan ha samme kode i feks C å man kan skrive det om til flere lavnivåspråk så lenge man har riktig kompilator. En annen fordel er at kompilatorer ofte klarer å optimalisere koden mer enn man klarer manuelt. Den kanskje største fordelen er at man ikke må skrive om hele koden om man skal bruke den på en annen arkitektur.
-
-Argumenter for å skrive manuelt er at man har full kontroll over det man skriver. det vil nemelig ikke være noen kompilator som skriver om koden din på en måte du ikke har lyst på. I tillegg, hvis du har skrevet koden selv vil det være mye letter å feilsøke hvis det skulle oppstått problemer.
